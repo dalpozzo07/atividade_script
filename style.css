@@ -47,3 +47,7 @@ aside li {
 aside li:hover {
     background: #777;
 }
+
+aside li::before {
+    content: "➤ ";
+}
