@@ -51,3 +51,22 @@ aside li:hover {
 aside li::before {
     content: "➤ ";
 }
+
+aside li {
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+main {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
