@@ -32,3 +32,18 @@ footer {
     background: #333;
     color: white;
 }
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+aside li:hover {
+    background: #777;
+}
